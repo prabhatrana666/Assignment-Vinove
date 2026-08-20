@@ -219,7 +219,7 @@ button {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
   margin-bottom: 24px;
 }
 
@@ -228,7 +228,7 @@ button {
   align-items: center;
   gap: 5px;
   color: #31343a;
-  font-size: 11px;
+  font-size: 14px;
   text-decoration: underline;
   text-underline-offset: 2px;
   white-space: nowrap;
@@ -290,28 +290,28 @@ button {
 }
 
 .stat-icon {
-  width: 22px;
+  width: 26px;
   min-width: 22px;
-  height: 22px;
+  height: 26px;
   border: 1px solid #cfd3db;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #9ba1ab;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .stat-number {
   color: #737982;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
   font-weight: 500;
 }
 
 .stat-description {
   color: #999da5;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.4;
   margin-top: 1px;
 }
@@ -322,7 +322,6 @@ button {
 ========================================================= */
 
 .partner-grid {
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 7px;
   margin-top: 40px;
