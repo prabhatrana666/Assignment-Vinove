@@ -50,7 +50,6 @@ https://assignment-vinove.netlify.app/
   <img src="./public/preiew.png" width="280" alt="Assignment Preview">
 </p>
 
-> Replace the screenshot path above with the actual location of your project screenshot if required.
 
 ---
 
@@ -112,40 +111,55 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/prabhatrana666/Assignment-Vinove.git
 
+
 ## 🔗 Connect
 
 <p align="left">
   <a href="https://prabhatrana.online/">
     <img src="https://img.shields.io/badge/Portfolio-Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
   </a>
+
   <a href="https://linkedin.com/in/prabhat-rana">
     <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
+
   <a href="https://github.com/prabhatrana666">
     <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
- <a href="mailto:prabhatrana.dev@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-</a>
-</a>
+
+  <a href="mailto:prabhatrana.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
 </p>
 
 ---
 
 ## 📄 License
 
-This project is a Assignment-Vinove application.
+This project was developed as part of the **Vinove frontend assignment**.
 
 © 2026 **Prabhat Rana**. All rights reserved.
 
 ---
 
 <p align="center">
-  <a href="https://prabhatrana.online/">🌐 Portfolio</a>
+  <a href="https://assignment-vinove.netlify.app/">
+    🌐 Live Assignment
+  </a>
   &nbsp;•&nbsp;
-  <a href="https://linkedin.com/in/prabhat-rana">💼 LinkedIn</a>
+  <a href="https://github.com/prabhatrana666/Assignment-Vinove">
+    💻 GitHub
+  </a>
+  &nbsp;•&nbsp;
+  <a href="https://prabhatrana.online/">
+    🌐 Portfolio
+  </a>
+  &nbsp;•&nbsp;
+  <a href="https://linkedin.com/in/prabhat-rana">
+    💼 LinkedIn
+  </a>
 </p>
 
 <p align="center">
-  <sub>Designed, developed, and maintained by Prabhat Rana.</sub>
+  <sub>Designed and developed by Prabhat Rana.</sub>
 </p>
