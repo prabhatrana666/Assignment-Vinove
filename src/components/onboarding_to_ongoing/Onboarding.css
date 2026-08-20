@@ -446,6 +446,7 @@
 
     .how-process {
         padding: 40px 0 45px;
+        margin: 20px;
     }
 
     .how-intro-row {
@@ -535,11 +536,11 @@
     }
 
     .how-step-content h3 {
-        font-size: 9px;
+        font-size: 14px;
     }
 
     .how-step-content p {
-        font-size: 7px;
+        font-size: 13px;
         line-height: 1.6;
     }
 

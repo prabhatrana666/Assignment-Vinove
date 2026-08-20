@@ -72,7 +72,7 @@ const How = () => {
       ===================================================== */}
       <div className="how-process-section">
 
-        <div className="container">
+        <div className="container how_setionss">
 
           <div className="row align-items-start gy-5">
 
