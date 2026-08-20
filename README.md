@@ -151,3 +151,7 @@ npm npm run dev
 This project was developed as part of the **Vinove frontend assignment**.
 
 © 2026 **Prabhat Rana**. All rights reserved.
+
+<p align="center">
+  <sub>Designed, developed, and maintained by Prabhat Rana.</sub>
+</p>
