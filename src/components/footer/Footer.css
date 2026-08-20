@@ -1,0 +1,285 @@
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.site-footer {
+  width: 100%;
+  background: #1b2024;
+  color: #ffffff;
+  border-top: 1px solid #34393d;
+}
+
+.footer-container {
+  max-width: 100%;
+  padding: 38px 6.85% 35px;
+}
+
+
+/* =========================================================
+   OFFICE CARDS
+========================================================= */
+
+.footer-offices {
+  margin-bottom: 31px;
+}
+
+.office-card {
+  min-height: 91px;
+  padding: 11px 10px 10px;
+  border: 1px solid #363b40;
+  border-radius: 8px;
+  background: transparent;
+  transition: border-color 0.2s ease,
+              background-color 0.2s ease;
+}
+
+.office-card:hover {
+  border-color: #50565c;
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.office-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  margin-bottom: 8px;
+
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.office-flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 18px;
+  height: 18px;
+
+  font-size: 16px;
+  line-height: 1;
+}
+
+.office-address {
+  color: #969ba1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+
+/* =========================================================
+   FOOTER LINK SECTION
+========================================================= */
+
+.footer-links {
+  --bs-gutter-x: 30px;
+}
+
+.footer-column {
+  min-height: 155px;
+}
+
+.footer-column h5 {
+  margin: 0 0 17px;
+
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+
+/* =========================================================
+   MENU
+========================================================= */
+
+.footer-menu {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin-bottom: 10px;
+}
+
+.footer-menu a {
+  color: #898e94;
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.35;
+
+  transition: color 0.2s ease;
+}
+
+.footer-menu a:hover {
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   SOCIAL
+========================================================= */
+
+.footer-social-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  margin-top: 8px;
+}
+
+.follow-text {
+  color: #f1f1f1;
+
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+
+  background: #7c8189;
+  color: #1b2024;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.social-icon:hover {
+  background: #ffffff;
+  color: #1b2024;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   COPYRIGHT
+========================================================= */
+
+.footer-copyright {
+  width: 100%;
+
+  background: #000000;
+
+  border-top: 1px solid #101214;
+}
+
+.footer-copyright p {
+  margin: 0;
+  padding: 8px 20px;
+
+  color: #777777;
+
+  text-align: center;
+
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+
+  .footer-container {
+    padding: 35px 5% 30px;
+  }
+
+  .footer-links {
+    --bs-gutter-y: 25px;
+  }
+
+  .footer-column {
+    min-height: auto;
+  }
+
+  .footer-social-wrapper {
+    margin-top: 15px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 575.98px) {
+
+  .footer-container {
+    padding: 30px 20px 25px;
+  }
+
+  .footer-offices {
+    margin-bottom: 30px;
+  }
+
+  .office-card {
+    min-height: auto;
+    padding: 13px;
+  }
+
+  .office-title {
+    font-size: 16px;
+  }
+
+  .office-address {
+    font-size: 14px;
+  }
+
+  .footer-links {
+    --bs-gutter-y: 28px;
+  }
+
+  .footer-column h5 {
+    margin-bottom: 14px;
+  }
+
+  .footer-menu li {
+    margin-bottom: 9px;
+  }
+
+  .footer-menu a {
+    font-size: 13px;
+  }
+
+  .footer-social-wrapper {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-copyright p {
+    padding: 9px 15px;
+    font-size: 9px;
+  }
+}
