@@ -5,7 +5,6 @@ import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import How from './components/how_it_works/How.jsx';
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
