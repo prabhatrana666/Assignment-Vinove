@@ -285,11 +285,17 @@ button {
 .vc-hero-container {
   position: relative;
   z-index: 5;
-  max-width: 1240px;
-}
+  max-width: 1140px !important;
 
+}
+.engageent {
+  max-width: 1140px !important;
+
+}
 .vc-hero-content {
   padding-top: 18px;
+  position: relative;
+    top: -55px;
 }
 
 .vc-rating {
@@ -600,7 +606,7 @@ font-size: 7px;
   margin-bottom: 18px;
   text-align: center;
   color: #252525;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -609,9 +615,9 @@ font-size: 7px;
   content: "";
   position: absolute;
   top: 50%;
-  width: 23%;
+  width: 34%;
   height: 1px;
-  background: #e8ebf2;
+  background: #FFCD29;
 }
 
 .vc-trusted-heading::before {
@@ -634,7 +640,6 @@ font-size: 7px;
 }
 
 .vc-trusted-image {
-  width: min(100%, 645px);
   height: auto;
   display: block;
 }
@@ -656,7 +661,7 @@ font-size: 7px;
 .vc-section-label {
   margin-bottom: 7px;
   color: #2b6eff;
-  font-size: 8px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 1.5px;
 }
@@ -674,7 +679,7 @@ font-size: 7px;
   max-width: 515px;
   margin: 0;
   color: #60697a;
-  font-size: 9px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -692,14 +697,14 @@ font-size: 7px;
 .vc-card-label {
   margin-bottom: 9px;
   color: #2b70ff;
-  font-size: 9px;
+  font-size: 15px;
   font-weight: 700;
 }
 
 .vc-engagement-card p {
   margin: 0 0 8px;
   color: #697080;
-  font-size: 8px;
+  font-size: 15px;
   line-height: 1.65;
 }
 

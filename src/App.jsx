@@ -300,7 +300,7 @@ function App() {
       ========================================================= */}
       <section className="vc-trusted">
 
-        <div className="container">
+        <div className="container engageent">
 
           <div className="vc-trusted-heading">
             Trusted by startups and Fortune{" "}
@@ -327,7 +327,7 @@ function App() {
       ========================================================= */}
       <section className="vc-engagement">
 
-        <div className="container">
+        <div className="container engageent">
 
           <div className="row align-items-center g-5">
 

@@ -1,0 +1,540 @@
+/* =========================================================
+   HOW SECTION
+========================================================= */
+
+.how-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   HOW IT WORKS / TOP SECTION
+========================================================= */
+
+.how-process-section {
+    position: relative;
+    min-height: 343px;
+    padding: 58px 0 50px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 82% 72%,
+            rgba(32, 91, 184, 0.65),
+            transparent 38%),
+        linear-gradient(110deg,
+            #07194f 0%,
+            #071d5b 65%,
+            #123d8d 100%);
+    color: #fff;
+}
+
+
+/* =========================================================
+   LEFT SIDE
+========================================================= */
+
+.how-left-content {
+    position: relative;
+    z-index: 5;
+    padding-left: 0;
+}
+
+.how-section-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #6c9dff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.how-main-title {
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(31px, 3.2vw, 42px);
+    line-height: 1.04;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+}
+
+.how-description {
+    max-width: 340px;
+    margin: 13px 0 0;
+    color: #d1daf0;
+    font-size: 16px !important;
+    line-height: 1.65;
+}
+
+
+/* =========================================================
+   ACCORDION
+========================================================= */
+
+.how-accordion {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    max-width: 490px;
+    margin-left: auto;
+}
+
+.how-accordion-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.how-accordion-item:first-child {
+    border-top: none;
+}
+
+.how-accordion-header {
+    width: 100%;
+    min-height: 49px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.how-accordion-header:hover {
+    color: #76a6ff;
+}
+
+.how-accordion-icon {
+    width: 29px;
+    height: 31px;
+    flex: 0 0 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: #5f91ff;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.how-icon-active {
+    background: rgba(73, 119, 221, 0.15);
+    transform: rotate(180deg);
+}
+
+.how-accordion-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition:
+        grid-template-rows 0.35s ease,
+        opacity 0.25s ease;
+}
+
+.how-accordion-content p {
+    min-height: 0;
+    overflow: hidden;
+    margin: 0;
+    color: #d2dcf2;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+.acc-title {
+    font-size: 16px;
+}
+
+.how-content-open {
+    grid-template-rows: 1fr;
+    opacity: 1;
+}
+
+.how-content-open p {
+    padding: 0 45px 14px 0;
+}
+
+
+/* =========================================================
+   DECORATIVE BACKGROUND SHAPES
+========================================================= */
+
+.how-decoration {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.how-decoration-one {
+    width: 62px;
+    height: 62px;
+    left: 53px;
+    bottom: -1px;
+    border-radius: 0 0 50% 50%;
+    background: rgba(29, 61, 132, 0.27);
+}
+
+.how-decoration-two {
+    width: 62px;
+    height: 62px;
+    left: 112px;
+    bottom: -1px;
+    background: rgba(30, 64, 138, 0.27);
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.how-decoration-three {
+    width: 62px;
+    height: 62px;
+    left: 112px;
+    bottom: -62px;
+    border-radius: 0 50% 50% 0;
+    background: rgba(30, 64, 138, 0.27);
+}
+
+
+/* =========================================================
+   COMPARISON SECTION
+========================================================= */
+
+.how-comparison-section {
+    padding: 63px 0 16px;
+    background: #ffffff;
+}
+
+.how-comparison-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.how-comparison-heading h2 {
+    margin: 0;
+    color: #07194f;
+    font-size: 34px !important;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+}
+
+.how-comparison-heading p {
+    max-width: 470px;
+    margin: 10px auto 0;
+    color: #697080;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   TABLE WRAPPER
+========================================================= */
+
+.how-table-wrapper {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(14, 31, 71, 0.1);
+}
+
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+.how-comparison-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 10px;
+    table-layout: fixed;
+}
+
+.how-comparison-table th,
+.how-comparison-table td {
+    border-right: 1px solid #e5e7ec;
+    border-bottom: 1px solid #edf0f5;
+}
+
+.how-comparison-table th:last-child,
+.how-comparison-table td:last-child {
+    border-right: 0;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.how-comparison-table thead th {
+    height: 47px;
+    padding: 0 13px;
+    background: #f0f0f3;
+    color: #111827;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.how-comparison-table thead th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.how-comparison-table thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.how-comparison-table .how-highlight-column {
+    color: #356cff;
+    background: #dce7ff;
+}
+
+
+/* =========================================================
+   BODY
+========================================================= */
+
+.how-comparison-table tbody td {
+    height: 42px;
+    padding: 0 13px;
+    background: #ffffff;
+    color: #656c78;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.35;
+    vertical-align: middle;
+}
+
+.how-comparison-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.how-comparison-table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.how-comparison-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+.how-comparison-table .how-factor {
+    color: #161b25;
+    font-weight: 500;
+}
+
+.how-comparison-table .how-highlight-cell {
+    background: #f7f9ff;
+}
+
+
+/* =========================================================
+   TABLE DOWN BUTTON
+========================================================= */
+
+.how-table-scroll-button {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    bottom: -1px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 50%;
+    transform: translate(-50%, 50%);
+    background: #5728c7;
+    color: #ffffff;
+    box-shadow: 0 3px 7px rgba(73, 32, 171, 0.35);
+    cursor: pointer;
+}
+
+.how-table-scroll-button:hover {
+    background: #6939db;
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+========================================================= */
+
+@media (min-width: 1200px) {
+
+    .how-process-section {
+        padding-top: 52px;
+    }
+
+    .how-process-section .container,
+    .how-comparison-section .container {
+        max-width: 1140px;
+    }
+
+    .how-main-title {
+        font-size: 34px;
+    }
+
+    .how-description {
+        font-size: 9px;
+    }
+
+    .how-comparison-heading h2 {
+        font-size: 26px;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .how-process-section {
+        padding: 55px 0;
+    }
+
+    .how-left-content {
+        max-width: 600px;
+    }
+
+    .how-description {
+        max-width: 500px;
+    }
+
+    .how-accordion {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .how-comparison-section {
+        padding-top: 50px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .how-process-section {
+        min-height: auto;
+        padding: 45px 0 55px;
+    }
+
+    .how-section-label {
+        font-size: 7px;
+    }
+
+    .how-main-title {
+        font-size: 31px;
+        line-height: 1.05;
+        letter-spacing: -1px;
+    }
+
+    .how-description {
+        max-width: 100%;
+        margin-top: 14px;
+        font-size: 9px;
+    }
+
+    .how-accordion {
+        margin-top: 5px;
+    }
+
+    .how-accordion-header {
+        min-height: 52px;
+        font-size: 12px;
+    }
+
+    .how-accordion-icon {
+        width: 31px;
+        height: 31px;
+    }
+
+    .how-content-open p {
+        padding-right: 30px;
+    }
+
+    .how-comparison-section {
+        padding: 48px 0 30px;
+    }
+
+    .how-comparison-heading {
+        padding: 0 15px;
+        margin-bottom: 28px;
+    }
+
+    .how-comparison-heading h2 {
+        font-size: 27px;
+        line-height: 1.12;
+    }
+
+    .how-comparison-heading p {
+        font-size: 8px;
+    }
+
+    /*
+     Keep table readable on mobile.
+     User can horizontally scroll.
+  */
+    .how-table-wrapper {
+        width: calc(100% - 24px);
+        margin: 0 12px;
+        overflow-x: auto;
+    }
+
+    .how-comparison-table {
+        min-width: 620px;
+    }
+
+    .how-comparison-table th,
+    .how-comparison-table td {
+        white-space: normal;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .how-process-section {
+        padding: 38px 0 48px;
+    }
+
+    .how-main-title {
+        font-size: 28px;
+    }
+
+    .how-description {
+        font-size: 8.5px;
+    }
+
+    .how-accordion-header {
+        font-size: 11px;
+    }
+
+    .how-comparison-heading h2 {
+        font-size: 24px;
+    }
+
+    .how-comparison-heading p {
+        font-size: 8px;
+    }
+
+}
