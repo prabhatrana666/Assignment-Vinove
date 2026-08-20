@@ -301,8 +301,8 @@ button {
 
 .vc-rating {
   width: fit-content;
-  min-height: 23px;
-  padding: 0 9px;
+  min-height: 30px;
+  padding: 4px 10px;
   display: flex;
   align-items: center;
   gap: 7px;
