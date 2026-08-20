@@ -89,7 +89,6 @@
 
 .proof-project-image {
     position: relative;
-    height: 112px;
     margin: 13px 13px 0;
     overflow: hidden;
     border-radius: 7px;
@@ -509,7 +508,7 @@
 
     .proof-case-studies .container,
     .proof-faq-section .container {
-        max-width: 1040px;
+        max-width: 1140px;
     }
 
     .proof-main-title {
