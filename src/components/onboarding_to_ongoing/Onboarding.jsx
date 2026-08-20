@@ -240,10 +240,7 @@ const Onboarding = () => {
 
                 <div className="how-rating-card">
 
-                  <div className="how-rating-icons">
-                    <span>◈</span>
-                    <span>◈</span>
-                  </div>
+                 
 
                   <div>
 
