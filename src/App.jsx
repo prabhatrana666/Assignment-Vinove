@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <h1>hiiji</h1>
+      <h1>hiijdi</h1>
     </>
   )
 }
