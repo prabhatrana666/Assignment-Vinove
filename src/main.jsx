@@ -9,9 +9,9 @@ import Footer from './components/footer/Footer.jsx';
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <>
     <App />
     <How />
     <Footer />
-  </StrictMode>,
+  </>,
 )

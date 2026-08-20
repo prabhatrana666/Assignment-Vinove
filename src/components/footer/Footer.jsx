@@ -1,12 +1,13 @@
 import React from "react";
 import './Footer.css';
-import logo from "./assets/vinove-images/logo.png";
-
-
+import newyork from "../../assets/vinove-images/newyork.png";
+import london from "../../assets/vinove-images/newyork.png";
+import uae from "../../assets/vinove-images/newyork.png";
+import india from "../../assets/vinove-images/india.png";
 
 const offices = [
   {
-    flag: "🇺🇸",
+    flag: newyork,
     city: "New York, USA",
     address: (
       <>
@@ -17,7 +18,7 @@ const offices = [
     ),
   },
   {
-    flag: "🇬🇧",
+    flag: london,
     city: "London, UK",
     address: (
       <>
@@ -28,7 +29,7 @@ const offices = [
     ),
   },
   {
-    flag: "🇦🇪",
+    flag: uae,
     city: "Dubai, UAE",
     address: (
       <>
@@ -39,7 +40,7 @@ const offices = [
     ),
   },
   {
-    flag: "🇮🇳",
+    flag: india,
     city: "Noida, India",
     address: (
       <>
@@ -137,7 +138,8 @@ function Footer() {
               <div className="office-card">
                 <div className="office-title">
                   <span className="office-flag">
-                    {office.flag}
+                    
+                    <img src={office.flag} alt="flags" />
                   </span>
 
                   <span>{office.city}</span>
