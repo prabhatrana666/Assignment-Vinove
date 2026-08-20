@@ -47,7 +47,7 @@ https://assignment-vinove.netlify.app/
 ## 🎥 Preview
 
 <p align="center">
-  <img src="./src/assets/screenshots/home.png" width="280" alt="Assignment Preview">
+  <img src="./public/preiew.png" width="280" alt="Assignment Preview">
 </p>
 
 > Replace the screenshot path above with the actual location of your project screenshot if required.
