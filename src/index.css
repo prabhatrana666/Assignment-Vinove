@@ -136,6 +136,7 @@ button {
 
 .vc-navbar-right {
   display: flex;
+  margin-left: 40px;
   align-items: center;
   gap: 12px;
 }
@@ -746,11 +747,15 @@ button {
   .vc-hero-container {
     max-width: 1240px;
   }
-
+.vc-hamburger {
+  color: #fff;
+}
   .vc-hero h1 {
-    font-size: 57px;
+    font-size: 54px;
   }
-
+.navbar-toggler{
+  color: #fff !important;
+}
   .vc-engineer-image {
     width: 390px;
   }
@@ -782,7 +787,7 @@ button {
 
   .vc-nav-links .nav-link {
     padding: 9px !important;
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .vc-navbar-right {
@@ -890,7 +895,7 @@ button {
   .vc-secondary-btn {
     min-height: 32px;
     padding: 0 14px;
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .vc-tech-badges {
@@ -1000,7 +1005,7 @@ button {
   }
 
   .vc-rating {
-    font-size: 7px;
+    font-size: 11px;
   }
 
   .vc-hero h1 {
@@ -1032,5 +1037,7 @@ button {
   .vc-engagement h2 {
     font-size: 26px;
   }
-
+.vc-navbar-right {
+    margin-left: 0px;
+}
 }

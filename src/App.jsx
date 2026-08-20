@@ -1,4 +1,6 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
 
 import heroVisual from "./assets/vinove-images/bg-image.png";
@@ -8,16 +10,10 @@ import ion from "./assets/vinove-images/searh.png";
 import partner from "./assets/vinove-images/partner1.png";
 import images3 from "./assets/vinove-images/3-images.png";
 
-const companies = [
-  "Yale University",
-  "Dubai Police",
-  "Panasonic",
-  "Infosys",
-  "KIA",
-  "HITACHI",
-  "Orange Business",
-  "World Bank",
-];
+
+/* =========================================================
+   DATA
+========================================================= */
 
 const tickerItems = [
   "10-DAY REPLACEMENT GUARANTEE",
@@ -28,6 +24,11 @@ const tickerItems = [
   "4.8* ON CLUTCH",
   "20+ YEARS IN SOFTWARE DEVELOPMENT",
 ];
+
+
+/* =========================================================
+   ARROW ICON
+========================================================= */
 
 function ArrowIcon() {
   return (
@@ -44,6 +45,7 @@ function ArrowIcon() {
         strokeWidth="2"
         strokeLinecap="round"
       />
+
       <path
         d="M13 7L18 12L13 17"
         stroke="currentColor"
@@ -54,6 +56,11 @@ function ArrowIcon() {
     </svg>
   );
 }
+
+
+/* =========================================================
+   SEARCH ICON
+========================================================= */
 
 function SearchIcon() {
   return (
@@ -71,6 +78,7 @@ function SearchIcon() {
         stroke="currentColor"
         strokeWidth="1.8"
       />
+
       <path
         d="M16 16L21 21"
         stroke="currentColor"
@@ -81,28 +89,65 @@ function SearchIcon() {
   );
 }
 
+
+/* =========================================================
+   STAR RATING
+========================================================= */
+
 function StarRating() {
   return (
     <div className="vc-rating">
-      <span className="vc-stars">★★★★★</span>
-      <span>4.8/5 on Clutch · 200+ reviews</span>
+      <span className="vc-stars">
+        ★★★★★
+      </span>
+
+      <span>
+        4.8/5 on Clutch · 200+ reviews
+      </span>
     </div>
   );
 }
+
+
+/* =========================================================
+   APP
+========================================================= */
 
 function App() {
   return (
     <div className="vc-page">
 
-      {/* =========================================================
+
+      {/* =====================================================
           NAVBAR
-      ========================================================= */}
-      <nav className="navbar navbar-expand-lg vc-navbar" style={{ background: 'radial-gradient(circle at 73% 45%, rgba(34, 75, 170, 0.42) 0, rgba(34, 75, 170, 0.15) 24%, transparent 48%), #06184e' }}>
+      ===================================================== */}
+
+      <nav className="navbar navbar-expand-lg vc-navbar" style={{
+        background:
+          'radial-gradient(circle at 73% 45%, rgba(34, 75, 170, 0.42) 0, rgba(34, 75, 170, 0.15) 24%, transparent 48%), #06184e',
+      }}>
+
         <div className="container vc-navbar-container">
 
-          <a className="navbar-brand vc-logo" href="#">
-            <img src={logo} alt="logo" />
+
+          {/* =========================
+              LOGO
+          ========================= */}
+
+          <a
+            className="navbar-brand vc-logo"
+            href="/"
+          >
+            <img
+              src={logo}
+              alt="ValueCoders"
+            />
           </a>
+
+
+          {/* =========================
+              MOBILE TOGGLE
+          ========================= */}
 
           <button
             className="navbar-toggler vc-toggler"
@@ -113,134 +158,246 @@ function App() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="vc-hamburger">
+              <i
+                className="bi bi-list"
+                style={{ color: "#fff", fontSize: "28px" }}
+              ></i>
+            </span>
           </button>
 
+
+          {/* =================================================
+              NAVIGATION CONTENT
+          ================================================= */}
+
           <div
-            className="collapse navbar-collapse"
+            className="collapse navbar-collapse justify-content-center"
             id="vcNavbar"
           >
-            <ul className="navbar-nav mx-auto vc-nav-links">
+
+
+            {/* =========================
+                NAV LINKS
+            ========================= */}
+
+            <ul className="navbar-nav vc-nav-links">
 
               <li className="nav-item">
-                <a className="nav-link" href="#services">
+
+                <a
+                  className="nav-link"
+                  href="#services"
+                >
                   Service
                 </a>
+
               </li>
 
+
               <li className="nav-item">
-                <a className="nav-link" href="#solutions">
+
+                <a
+                  className="nav-link"
+                  href="#solutions"
+                >
                   Solutions
                 </a>
+
               </li>
 
+
               <li className="nav-item">
-                <a className="nav-link" href="#teams">
+
+                <a
+                  className="nav-link"
+                  href="#teams"
+                >
                   Hire & Teams
                 </a>
+
               </li>
 
+
               <li className="nav-item">
-                <a className="nav-link" href="#company">
+
+                <a
+                  className="nav-link"
+                  href="#company"
+                >
                   Company
                 </a>
+
               </li>
 
             </ul>
 
+
+            {/* =========================
+                RIGHT SIDE
+            ========================= */}
+
             <div className="vc-navbar-right">
 
 
-              <div className="vc-search">
-                <SearchIcon />
-                <span>Search or describe what...</span>
-                <img src={ion} alt="icon" style={{ height: '2em' }} />
+              {/* SEARCH */}
 
+              <div className="vc-search">
+
+                <SearchIcon />
+
+                <span>
+                  Search or describe what...
+                </span>
+
+                <img
+                  src={ion}
+                  alt="search"
+                />
 
               </div>
 
 
-              <button className="vc-estimate-btn">
-                Get an Estimate
+              {/* ESTIMATE */}
+
+              <button
+                type="button"
+                className="vc-estimate-btn"
+              >
+
+                <span>
+                  Get an Estimate
+                </span>
+
                 <span className="vc-btn-arrow">
                   <ArrowIcon />
                 </span>
+
               </button>
 
             </div>
+
           </div>
+
         </div>
+
       </nav>
 
 
-      {/* =========================================================
+      {/* =====================================================
           HERO
-      ========================================================= */}
+      ===================================================== */}
+
       <section className="vc-hero">
 
         <div className="vc-hero-circle vc-circle-one"></div>
+
         <div className="vc-hero-circle vc-circle-two"></div>
+
 
         <div className="container vc-hero-container">
 
           <div className="row align-items-center">
 
-            {/* LEFT */}
+
+            {/* =========================
+                LEFT
+            ========================= */}
+
             <div className="col-lg-6">
 
               <div className="vc-hero-content">
 
                 <StarRating />
 
+
                 <h1>
+
                   Vetted Engineers
+
                   <br />
-                  in <span>Your Team</span>
+
+                  in{" "}
+
+                  <span>
+                    Your Team
+                  </span>
+
                 </h1>
 
+
                 <p className="vc-hero-description">
+
                   Need more engineering capacity but don't want another
                   three-month hiring cycle? Get a vetted shortlist in 48
                   hours. Your roadmap, architecture, sprint planning, and
                   code reviews stay with your team while we handle hiring,
                   employment, replacements, and staffing.
+
                 </p>
+
 
                 <div className="vc-hero-buttons">
 
-                  <a href="#contact" className="vc-primary-btn">
+                  <a
+                    href="#contact"
+                    className="vc-primary-btn"
+                  >
                     Talk to Us
                     <ArrowIcon />
                   </a>
 
-                  <a href="#call" className="vc-secondary-btn">
+
+                  <a
+                    href="#call"
+                    className="vc-secondary-btn"
+                  >
                     Book a Call
                     <ArrowIcon />
                   </a>
 
                 </div>
 
+
                 <div className="vc-tech-badges">
-                  <img src={partner} alt="logo" />
+
+                  <img
+                    src={partner}
+                    alt="Technology partners"
+                  />
 
                 </div>
 
               </div>
+
             </div>
 
 
-            {/* RIGHT */}
+            {/* =========================
+                RIGHT
+            ========================= */}
+
             <div className="col-lg-6">
 
               <div className="vc-hero-visual">
 
+
                 <div className="vc-engineer-card">
+
                   <div className="vc-small-avatars">
-                    <img src={images3} alt="3iages"/>
-                    
+
+                    <img
+                      src={images3}
+                      alt="Employees"
+                    />
+
                   </div>
 
-                  <strong>675+</strong>
+
+                  <strong>
+                    675+
+                  </strong>
+
 
                   <p>
                     Employees
@@ -249,15 +406,15 @@ function App() {
                     <br />
                     Our Growth
                   </p>
+
                 </div>
+
 
                 <img
                   src={heroVisual}
                   alt="Vetted engineer"
                   className="vc-engineer-image"
                 />
-
-                
 
               </div>
 
@@ -266,46 +423,61 @@ function App() {
           </div>
 
         </div>
+
       </section>
 
 
-      {/* =========================================================
+      {/* =====================================================
           MOVING TICKER
-      ========================================================= */}
+      ===================================================== */}
+
       <section className="vc-ticker">
 
         <div className="vc-ticker-track">
 
-          {[...tickerItems, ...tickerItems].map((item, index) => (
-            <React.Fragment key={index}>
+          {[...tickerItems, ...tickerItems].map(
+            (item, index) => (
 
-              <span className="vc-ticker-item">
-                {item}
-              </span>
+              <React.Fragment key={index}>
 
-              <span className="vc-ticker-separator">
-                •
-              </span>
+                <span className="vc-ticker-item">
+                  {item}
+                </span>
 
-            </React.Fragment>
-          ))}
+                <span className="vc-ticker-separator">
+                  •
+                </span>
+
+              </React.Fragment>
+
+            )
+          )}
 
         </div>
 
       </section>
 
 
-      {/* =========================================================
+      {/* =====================================================
           TRUSTED COMPANIES
-      ========================================================= */}
+      ===================================================== */}
+
       <section className="vc-trusted">
 
         <div className="container engageent">
 
           <div className="vc-trusted-heading">
+
             Trusted by startups and Fortune{" "}
-            <span>500+</span> companies
+
+            <span>
+              500+
+            </span>{" "}
+
+            companies
+
           </div>
+
 
           <div className="vc-company-logos">
 
@@ -322,16 +494,22 @@ function App() {
       </section>
 
 
-      {/* =========================================================
-          ENGAGEMENT SECTION
-      ========================================================= */}
-      <section className="vc-engagement">
+      {/* =====================================================
+          ENGAGEMENT
+      ===================================================== */}
+
+      <section
+        className="vc-engagement"
+        id="services"
+      >
 
         <div className="container engageent">
 
           <div className="row align-items-center g-5">
 
+
             {/* LEFT */}
+
             <div className="col-lg-6">
 
               <div className="vc-engagement-content">
@@ -340,20 +518,30 @@ function App() {
                   THE ENGAGEMENT
                 </div>
 
+
                 <h2>
+
                   You need engineers who fit
+
                   <br className="d-none d-md-block" />
+
                   into your team, not another
+
                   <br className="d-none d-md-block" />
+
                   team to manage.
+
                 </h2>
 
+
                 <p>
+
                   Your engineers shouldn't have to adapt to someone else's
                   methods. Augmented engineers join your standups, work from
                   your feedback, commit to your repositories, and follow your
                   release process. They work like engineers you've hired, not
                   a separate vendor operating alongside you.
+
                 </p>
 
               </div>
@@ -361,7 +549,8 @@ function App() {
             </div>
 
 
-            {/* RIGHT CARD */}
+            {/* RIGHT */}
+
             <div className="col-lg-6">
 
               <div className="vc-engagement-card">
@@ -370,17 +559,23 @@ function App() {
                   WHAT IS STAFF AUGMENTATION?
                 </div>
 
+
                 <p>
+
                   Staff augmentation is an engagement model where
                   pre-vetted engineers join your existing team under your
                   management, processes, and tools. The vendor handles
                   employment, payroll, HR compliance, and replacement SLA.
+
                 </p>
 
+
                 <p>
+
                   Your sprint board doesn't change. Your release process
                   doesn't change. The only difference is additional
                   engineering capacity.
+
                 </p>
 
               </div>
@@ -394,15 +589,19 @@ function App() {
       </section>
 
 
-      {/* =========================================================
-          SMALL CONTINUATION SECTION
-      ========================================================= */}
+      {/* =====================================================
+          BOTTOM SPACE
+      ===================================================== */}
+
       <section className="vc-bottom-space">
+
         <div className="vc-bottom-line"></div>
+
       </section>
 
     </div>
   );
 }
+
 
 export default App;
