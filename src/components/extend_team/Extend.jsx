@@ -475,7 +475,7 @@ function Extend() {
 
                       <div className="requirements-field">
 
-                        <label htmlFor="requirements">
+                        <label htmlFor="requirements" className="req-label"  >
                           Your Requirements
                         </label>
 
