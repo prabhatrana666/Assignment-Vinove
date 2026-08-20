@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Proof.css";
+import partner from "../../assets/vinove-images/partner1.png";
+import partner2 from "../../assets/vinove-images/partner2.png";
 
 /* =========================================================
    CASE STUDIES

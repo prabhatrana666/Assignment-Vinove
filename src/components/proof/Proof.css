@@ -234,7 +234,7 @@
     max-width: 350px;
     margin: 0;
     color: #151d31;
-    font-size: 9px;
+    font-size: 15px;
     line-height: 1.35;
     font-weight: 600;
 }
@@ -243,7 +243,7 @@
     min-height: 37px;
     margin: 7px 0 11px;
     color: #707681;
-    font-size: 6.5px;
+    font-size: 14px;
     line-height: 1.55;
 }
 
@@ -280,14 +280,14 @@
     display: block;
     margin-bottom: 3px;
     color: #202635;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 .proof-project-stat span {
     display: block;
     color: #8a8f99;
-    font-size: 5.5px;
+    font-size: 13px;
     line-height: 1.35;
 }
 
@@ -302,7 +302,8 @@
     align-items: center;
     gap: 5px;
     color: #3b73ee;
-    font-size: 6px;
+    font-size: 16px;
+    text-decoration: none;
     font-weight: 500;
     transition: 0.25s ease;
 }
