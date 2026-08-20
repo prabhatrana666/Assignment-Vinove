@@ -151,27 +151,3 @@ npm npm run dev
 This project was developed as part of the **Vinove frontend assignment**.
 
 © 2026 **Prabhat Rana**. All rights reserved.
-
----
-
-<p align="center">
-  <a href="https://assignment-vinove.netlify.app/">
-    🌐 Live Assignment
-  </a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/prabhatrana666/Assignment-Vinove">
-    💻 GitHub
-  </a>
-  &nbsp;•&nbsp;
-  <a href="https://prabhatrana.online/">
-    🌐 Portfolio
-  </a>
-  &nbsp;•&nbsp;
-  <a href="https://linkedin.com/in/prabhat-rana">
-    💼 LinkedIn
-  </a>
-</p>
-
-<p align="center">
-  <sub>Designed and developed by Prabhat Rana.</sub>
-</p>
