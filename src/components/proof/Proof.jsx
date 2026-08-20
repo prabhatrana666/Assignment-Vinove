@@ -148,8 +148,8 @@ const ArrowIcon = () => (
 const ChevronIcon = ({ active }) => (
   <svg
     className={`proof-chevron ${active ? "proof-chevron-active" : ""}`}
-    width="12"
-    height="12"
+    width="22"
+    height="32"
     viewBox="0 0 24 24"
     fill="none"
     aria-hidden="true"
@@ -386,14 +386,14 @@ const Proof = () => {
                 FAQ INTRO
             ========================= */}
 
-            <div className="col-lg-4">
+            <div className="col-lg-5">
 
               <div className="proof-faq-intro">
 
                 <h2>
                   Frequently Asked
                   <br />
-                  Questions
+                  <span className="question">Questions</span>
                 </h2>
 
                 <p>
@@ -412,7 +412,7 @@ const Proof = () => {
                 FAQ ACCORDION
             ========================= */}
 
-            <div className="col-lg-8">
+            <div className="col-lg-7">
 
               <div className="proof-faq-list">
 
