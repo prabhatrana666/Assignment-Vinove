@@ -109,7 +109,7 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/prabhatrana666/Assignment-Vinove.git
+git clone https://github.com/prabhatrana666/Assignment-Vinove.git```
 
 
 ## 🔗 Connect
