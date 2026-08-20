@@ -160,8 +160,8 @@ function Footer() {
             <div
               className={
                 index === 4
-                  ? "col-12 col-sm-6 col-lg-2"
-                  : "col-12 col-sm-6 col-lg-2"
+                  ? "col-6 col-sm-6 col-lg-2"
+                  : "col-6 col-sm-6 col-lg-2"
               }
               key={index}
             >
