@@ -563,6 +563,7 @@
 
     .proof-case-studies {
         padding: 38px 0 42px;
+        margin: 20px;
     }
 
     .proof-heading-row {
@@ -606,7 +607,7 @@
     }
 
     .proof-project-title {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .proof-project-description {
@@ -619,7 +620,7 @@
     }
 
     .proof-project-stat span {
-        font-size: 6px;
+        font-size: 10px;
     }
 
     .proof-faq-section {
@@ -692,15 +693,15 @@
     }
 
     .proof-project-title {
-        font-size: 9px;
+        font-size: 13px;
     }
 
     .proof-project-description {
-        font-size: 6.5px;
+        font-size: 12px;
     }
 
     .proof-project-stat strong {
-        font-size: 8px;
+        font-size: 13px;
     }
 
     .proof-faq-intro h2 {
