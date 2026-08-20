@@ -141,8 +141,7 @@ button {
 }
 
 .vc-search {
-  width: 116px;
-  height: 27px;
+  height: 34px;
   padding: 0 8px;
   display: flex;
   align-items: center;
@@ -195,8 +194,8 @@ button {
 }
 
 .vc-btn-arrow {
-  width: 20px;
-  height: 20px;
+  width: 29px;
+  height: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -304,13 +303,13 @@ button {
   border-radius: 20px;
   background: rgba(43, 91, 182, 0.22);
   color: #d9e4ff;
-  font-size: 8px;
+  font-size: 16px;
 }
 
 .vc-stars {
   color: #ffb900;
   letter-spacing: 1px;
-  font-size: 8px;
+  font-size: 16px;
 }
 
 .vc-hero h1 {

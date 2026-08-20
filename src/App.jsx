@@ -4,6 +4,7 @@ import "./App.css";
 import heroVisual from "./assets/vinove-images/bg-image.png";
 import logo from "./assets/vinove-images/logo.png";
 import trustedLogos from "./assets/vinove-images/Group.png";
+import ion from "./assets/vinove-images/searh.png";
 
 const companies = [
   "Yale University",
@@ -98,7 +99,7 @@ function App() {
         <div className="container vc-navbar-container">
 
           <a className="navbar-brand vc-logo" href="#">
-           <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" />
           </a>
 
           <button
@@ -147,11 +148,15 @@ function App() {
 
             <div className="vc-navbar-right">
 
+
               <div className="vc-search">
                 <SearchIcon />
                 <span>Search or describe what...</span>
-                <kbd>⌘ K</kbd>
+                <img src={ion} alt="icon" style={{height:'2em'}}/>
+
+
               </div>
+
 
               <button className="vc-estimate-btn">
                 Get an Estimate
