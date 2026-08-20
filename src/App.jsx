@@ -5,6 +5,8 @@ import heroVisual from "./assets/vinove-images/bg-image.png";
 import logo from "./assets/vinove-images/logo.png";
 import trustedLogos from "./assets/vinove-images/Group.png";
 import ion from "./assets/vinove-images/searh.png";
+import partner from "./assets/vinove-images/partner1.png";
+import images3 from "./assets/vinove-images/3-images.png";
 
 const companies = [
   "Yale University",
@@ -152,7 +154,7 @@ function App() {
               <div className="vc-search">
                 <SearchIcon />
                 <span>Search or describe what...</span>
-                <img src={ion} alt="icon" style={{height:'2em'}}/>
+                <img src={ion} alt="icon" style={{ height: '2em' }} />
 
 
               </div>
@@ -219,25 +221,7 @@ function App() {
                 </div>
 
                 <div className="vc-tech-badges">
-
-                  <div className="vc-tech-badge">
-                    <span className="vc-tech-ms">Microsoft</span>
-                  </div>
-
-                  <div className="vc-tech-badge">
-                    <span className="vc-tech-aws">AWS</span>
-                  </div>
-
-                  <div className="vc-tech-badge">
-                    <span className="vc-tech-google">Partner</span>
-                    <strong>Google Cloud</strong>
-                  </div>
-
-                  <div className="vc-tech-badge vc-clutch-badge">
-                    <span>Partner</span>
-                    <strong>Clutch</strong>
-                    <small>★★★★★</small>
-                  </div>
+                  <img src={partner} alt="logo" />
 
                 </div>
 
@@ -252,9 +236,8 @@ function App() {
 
                 <div className="vc-engineer-card">
                   <div className="vc-small-avatars">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <img src={images3} alt="3iages"/>
+                    
                   </div>
 
                   <strong>675+</strong>
@@ -274,21 +257,7 @@ function App() {
                   className="vc-engineer-image"
                 />
 
-                <div className="vc-quality-card">
-                  <div className="vc-card-icon">✓</div>
-                  <div>
-                    <small>Code Quality</small>
-                    <div className="vc-mini-stars">★★★★★</div>
-                  </div>
-                </div>
-
-                <div className="vc-quality-card vc-quality-two">
-                  <div className="vc-card-icon">⚙</div>
-                  <div>
-                    <small>Debuggability</small>
-                    <div className="vc-mini-stars">★★★★★</div>
-                  </div>
-                </div>
+                
 
               </div>
 

@@ -173,7 +173,7 @@ button {
 }
 
 .vc-estimate-btn {
-  height: 30px;
+  height: 34px;
   border: 0;
   border-radius: 20px;
   padding: 0 5px 0 13px;
@@ -329,7 +329,7 @@ button {
   max-width: 495px;
   margin: 0;
   color: #c8d2e8;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -343,13 +343,14 @@ button {
 .vc-primary-btn,
 .vc-secondary-btn {
   min-height: 26px;
-  padding: 0 10px;
+  padding: 7px 10px;
   display: inline-flex;
   align-items: center;
+  text-decoration: none;
   justify-content: center;
   gap: 7px;
   border-radius: 18px;
-  font-size: 8px;
+  font-size: 16px;
   transition: 0.3s ease;
 }
 
@@ -450,9 +451,8 @@ button {
 .vc-engineer-card {
   position: absolute;
   z-index: 5;
-  top: 5px;
-  left: 45px;
-  width: 104px;
+  top: -117px;
+  right: 217px;
   min-height: 116px;
   padding: 13px;
   border: 1px solid rgba(87, 143, 255, 0.8);
@@ -479,13 +479,15 @@ button {
   display: block;
   color: #67a0ff;
   font-size: 22px;
+  text-align: center;
   line-height: 1;
 }
 
 .vc-engineer-card p {
   margin: 5px 0 0;
   color: #e0e8fc;
-  font-size: 7px;
+text-align: center;  
+font-size: 7px;
   line-height: 1.3;
 }
 
@@ -562,7 +564,7 @@ button {
 
 .vc-ticker-item {
   color: #fff;
-  font-size: 7px;
+  font-size: 10px;
   font-weight: 500;
   letter-spacing: 0.2px;
 }
