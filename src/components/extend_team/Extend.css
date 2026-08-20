@@ -921,10 +921,11 @@ button {
 
   .hero-btn {
     width: 115px;
+    font-size: 12px;
   }
 
   .hero-note {
-    font-size: 10px;
+    font-size: 11px;
   }
 
 
