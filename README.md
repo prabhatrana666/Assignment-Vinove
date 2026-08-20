@@ -110,8 +110,20 @@ Make sure you have the following installed:
 
 ```bash
 git clone https://github.com/prabhatrana666/Assignment-Vinove.git```
+cd Assignment-Vinove
+```
 
+### 2. Install Dependencies
 
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm npm run dev
+```
 ## 🔗 Connect
 
 <p align="left">
